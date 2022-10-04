@@ -1,0 +1,3 @@
+idFoto: 1 | critico: Sergio Miedes | comentario: La técnica utilizada es impecable. Bloqueo de exposición 4k a contraluz en su máximo esplendor!
+idFoto: 2 | critico: Jorge Reig | comentario: ¡Qué apertura! ¡Vaya balance de blancos! ¡Menuda distancia focal! Este usuario sabía lo que hacía al disparar la cámara
+idFoto: 5 | critico: Carlos Izquierdo | comentario: Ha despertado algo en mí. Estoy sin palabras.

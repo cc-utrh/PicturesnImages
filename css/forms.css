@@ -1,0 +1,259 @@
+@import url("estilo.css");
+
+:root{
+	--colorPReg:red;
+}
+
+body {
+ 
+    align-items: center;
+    height: 100vh;}
+
+
+
+section {    /*Puede que haya que cambiar clase y copiar código*/
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+	background: var(--colorFondo);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    
+	
+}
+.section-registro p{
+	font-size: 12px;
+	font-weight: bold;
+	color: var(--colorPReg);
+}
+
+.align-middle {
+    vertical-align: middle !important;
+}
+h1 {
+	font-weight: bold;
+	margin: 0;
+}
+
+h2 {margin-top: 40px;
+	text-align: center;
+}
+
+.foto-circulo {
+    border-radius: 50% !important;
+    margin-left: 0.5rem !important;
+    width: 40px;
+    height: 40px; 
+    margin-top: 10px;  
+    align-items: center; 
+}
+
+
+span {
+	font-size: 12px;
+}
+
+
+button {
+	border-radius: 20px;
+	border: 1px solid var(--colorBotones1);
+	background-color: var(--colorBotones1);
+	color: var(--colorBotonesTxt);
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+    margin-top: 15px;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+button:focus {
+	outline: none;
+}
+
+button.ghost {
+	background-color: transparent;
+	border-color: #FFFFFF;
+}
+
+.formulari {
+	background-color: var(--colorNavForm);
+	color : var(--colorForm);
+	display: inline;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 40px 50px;
+	
+	text-align: center;
+}
+
+.formulari-login {
+	background-color: var(--colorNavForm);
+	display: inline;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 40px 50px;
+	
+	text-align: center;
+}
+
+.formulari-solicitud{
+	background-color: var(--colorNavForm);
+	display: inline;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 40px 50px;
+	
+	text-align: center;
+}
+
+input {
+	display:inline-block;
+	position: relative;
+	background-color: var(--colorInput);
+	border: none;
+	padding: 12px 0px;
+	margin: 12px 0px;
+	width: 100%;
+	max-width: -webkit-fill-available;
+}
+
+input::placeholder{
+	padding-left: 15px;
+}
+
+.input-2{
+	padding-left: 15px;
+	padding-right: 15px;
+	max-width: -webkit-fill-available;
+}
+.input-color{
+    width:70px;
+    height:40px;
+    padding: 6px 8px;
+}
+
+.select {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+.select select {
+	display: inline-block;
+	width: 100%;
+	cursor: pointer;
+	padding: 10px 15px;
+	outline: 0;
+	border: 0;
+	border-radius: 0;
+	background: #e6e6e6;
+	color: #7b7b7b;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+  }
+  .select select::-ms-expand {
+	display: none;
+  }
+
+  .select select:hover,
+  .select select:focus {
+	color: #000;
+	background: #ccc;
+  }
+  
+  .select__arrow {
+	position: absolute;
+	top: 40px;
+	right: 15px;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+	border-style: solid;
+	border-width: 8px 5px 0 5px;
+	border-color: #7b7b7b transparent transparent transparent;
+  }
+
+  .select__arrow2 {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+	border-style: solid;
+	border-width: 8px 5px 0 5px;
+	border-color: #7b7b7b transparent transparent transparent;
+  }
+
+  
+  .select select:hover ~ .select__arrow, .select select:focus ~ .select__arrow {
+	border-top-color: #000;
+  }
+  
+
+.container-2{
+	background-color: #fff;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	width: 768px;
+	max-width: 100%;
+	min-height: 580px;
+}
+
+.form-container {
+
+	top: 0;
+	height: 100%;
+
+}
+
+.sign-in-container {
+	left: 0;
+	
+	z-index: 2;
+}
+
+
+
+footer{
+    display: block;
+    background-color: var(--colorFooter);
+    color: var(--textoFooter);
+    text-align: center !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    border-top: 1px solid #f1f1f1;
+    font-weight: bold;
+    bottom: 0;
+    width: 100%;
+   
+}
+
+footer p {
+    margin: 8px 0;
+}
+
+
+footer a {
+    color: var(--colorA);
+    text-decoration: none;
+}
+

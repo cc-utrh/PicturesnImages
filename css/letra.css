@@ -1,0 +1,17 @@
+@import url("full.css");
+html{
+    font-size: 25px;
+}
+
+.nav-item_2{
+    width:400px;
+}
+
+p{
+    margin:0;
+}
+
+.barr{
+    margin-top:10px;
+}
+

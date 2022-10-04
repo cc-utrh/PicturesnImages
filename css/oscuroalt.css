@@ -1,0 +1,28 @@
+@import url("full.css");
+
+:root{
+    --colorFondo: rgb(51,51,51);
+    --colorTxt: #cacaca;
+    /* --colorNavForm: rgb(28,28,28); */
+    --colorNavForm: #1c1c21;
+    --colorTxtNav:#c1c2c4;
+    --colorBotones1: rgb(212, 103, 84);
+    --colorTabla: #c4c4c4;
+    --colorA: rgb(140, 140, 250);
+    --cardFondo: #1c1c21;
+    --txtMisDatos: #c1c2c4;
+}
+
+.navbar{border-bottom: 0;}
+
+footer{border-top: 0px;}
+
+button {margin-right: 0em; }
+
+button#boton2 { border: 1px solid var(--colorFondo); background-color: var(--colorBotones2); color: rgb(255, 255, 255);}
+
+
+
+
+
+

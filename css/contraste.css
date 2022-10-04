@@ -1,0 +1,79 @@
+@import url("full.css");
+
+:root{
+    --colorFondo:#cacaca;
+    --colorTxt:rgb(97, 97, 97);
+    --colorBotones1: rgb(97, 97, 97);
+    --colorBotones2: #c1c2c4;
+    --colorBotonesTxt: #FFFFFF;
+    --colorNavForm: rgb(97, 97, 97);
+    --colorTxtNav: #c1c2c4;
+    --bordeMisDatos: rgb(172, 172, 172);
+    --txtMisDatos: white;
+    --cardFondo: #cacaca;
+    --colorInput: #eee;
+    --colorForm : #c1c2c4;
+    --cardBorder: rgba(0, 0, 0, 0.125);
+    --colorFooter:rgb(97, 97, 97);
+    --textoFooter:#cacaca;
+    --colorTabla: rgb(97, 97, 97);
+    --tamanyoFuente: 1rem;
+    --tamanyoFuentePeq: 1.25rem;
+    --colorA: rgb(49, 49, 54);
+}
+
+
+footer{
+    border-top: 0px;
+}
+
+.navbar{
+    border-bottom: 0px;
+    
+}
+.lblchk{
+    color:#c1c2c4;   
+}
+
+.mensajemodal>h2{
+    color:#c1c2c4;
+}
+/* body{
+    background-color: #cacaca;
+    color: rgb(97, 97, 97);
+} */
+
+/* .formulari, .formulari-solicitud, .formulari-login{
+    background-color: rgb(167, 166, 166);
+} */
+
+/* button { border: 1px solid rgb(51, 51, 51);
+    background-color: rgb(97, 97, 97);
+    color: rgb(255, 255, 255);
+    margin-right: 0em; } */
+
+/* button#boton2 { border: 1px solid rgb(51, 51, 51); background-color: rgb(97, 97, 97); color: rgb(255, 255, 255);} */
+
+ 
+/* .card, .card-body{
+    background-color: #cacaca;
+} */
+
+/* .mis-datos{
+    background-color: rgb(97, 97, 97);
+    color: #c1c2c4;
+} */
+
+/* table, tr, th, td{
+    border: 1px solid rgb(97, 97, 97);
+} */
+/* .nav-link{
+    background-color: rgb(97, 97, 97);
+    color: #c1c2c4;
+} */
+
+
+
+/* section{
+    background-color: #cacaca;
+} */
